@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2 onclick="changeText(this)">Hello javascript</h2>
+<h2>My First Page</h2>
+
+<p id="demo"></p>
+
+<script>
+function myworkingfunction(){
+    return "I'm learning Dom javscript"
+}
+function changeText(id) {
+  id.innerHTML = "Learning javascript is fun";
+}
+document.getElementById("demo").innerHTML = myworkingfunction();
+</script>
+
+</body>
+</html>
